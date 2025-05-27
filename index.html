@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Captcha Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="message">Enter your message:</label>
+        <input type="text" id="message" name="message"><br><br>
+
+        <label for="captcha_display">Captcha:</label>
+        <div id="captcha_display" style="border: 1px solid #ccc; padding: 5px; margin-bottom: 10px; width: 100px; text-align: center;">
+            <!-- Captcha text will be displayed here -->
+        </div><br><br>
+
+        <label for="captcha_input">Enter Captcha:</label>
+        <input type="text" id="captcha_input" name="captcha_input"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <script src="script.js" defer></script>
+</body>
+</html>
